@@ -1,0 +1,20 @@
+/* position of factories */
+factories {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+  }
+
+/* position of links n stuff */
+links {
+    position: absolute;
+    top: 675px;
+    left: 250px;
+  }
+
+/* position of phone image/manual scam thing */
+scam {
+  position: absolute;
+  top: 75px;
+  left: 550px;
+}
