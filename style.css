@@ -8,7 +8,7 @@ factories {
 /* position of links n stuff */
 links {
     position: absolute;
-    top: 675px;
+    bottom: 15px;
     left: 250px;
   }
 
