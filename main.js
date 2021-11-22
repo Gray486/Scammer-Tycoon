@@ -1,3 +1,4 @@
+var version = "0.1.0"
 var balance = 0;
 var manualScams = 1;
 var manualScamCost = 60;

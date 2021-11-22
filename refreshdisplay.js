@@ -2,6 +2,8 @@ refreshDisplay();
 
 function refreshDisplay() {
 
+    document.getElementById("version").innerHTML = version
+
     document.getElementById("balanceTitle").innerHTML = balance
 
     document.getElementById("balanceDisplay").innerHTML = balance
