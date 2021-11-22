@@ -5,19 +5,31 @@
 
 <!--sets webpage icon and title-->
 <link rel="icon" href="https://i.postimg.cc/htW4KkMS/money-sign-image-modified.png" type = "image/x-icon">
-<title id="balance"></title>
+<title id="balanceTitle"></title>
 
 <!--manual scam button-->
 <scam>
     <button type="button" style="background-image: url(Images/Text-msg.jpeg); background-size: cover; padding: 225px 125px; color: black;" onclick="manualScam()"></button><br>
 </scam>
 
+
+<!--balance thing in the middle-->
+<balance>
+    $<span id="balanceDisplay"></span><br>
+</balance>
+
 <!--factories-->
 <factories>
     
+    <span data-text="Each manual scam upgrade gives you $1 per click" class="tooltip">
     <span id="manualScams"></span>
     <button style="background-size: cover; padding: 15px 15px; color: black;" type="button" onclick="upgradeManualScam();">Upgrade Manual Scam $<span id="manualScamCost"></span></button>
-    <span id="manualScamProfit"></span><br>
+    <span id="manualScamProfit"></span></span><br>
+
+    <span data-text="Each overpriced gas station upgrade gives you $5 per set interval. You can see the intervals on the right side of the screen." class="tooltip">
+    <span id="gasStations"></span>
+    <button style="background-size: cover; padding: 15px 15px; color: black;" type="button" onclick="upgradeGasStation();">Buy Overpriced Gas Station $<span id="gasStationCost"></span></button>
+    <span id="gasStationProfit"></span></span><br>
 
 </factories>
 
