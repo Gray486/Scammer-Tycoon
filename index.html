@@ -5,19 +5,36 @@
 
 <!--sets webpage icon and title-->
 <link rel="icon" href="https://i.postimg.cc/htW4KkMS/money-sign-image-modified.png" type = "image/x-icon">
-<title id="balance"></title>
+<title id="balanceTitle"></title>
 
 <!--manual scam button-->
 <scam>
     <button type="button" style="background-image: url(Images/Text-msg.jpeg); background-size: cover; padding: 225px 125px; color: black;" onclick="manualScam()"></button><br>
 </scam>
 
+
+<!--balance thing in the middle-->
+<balance>
+    $<span id="balanceDisplay"></span><br>
+</balance>
+
 <!--factories-->
-<factories>
-    
+<factories> <br>
+
+    <span data-text="Each manual scam upgrade gives you $1 per click. Surprisingly people are falling for the ol fake GoFundMe page." class="tooltip">
     <span id="manualScams"></span>
-    <button style="background-size: cover; padding: 15px 15px; color: black;" type="button" onclick="upgradeManualScam();">Upgrade Manual Scam $<span id="manualScamCost"></span></button>
-    <span id="manualScamProfit"></span><br>
+    <button style="background-size: cover; padding: 15px 15px; color: black;" type="button" onclick="buyManualScam();">Upgrade Manual Scam $<span id="manualScamCost"></span></button>
+    <span id="manualScamProfit"></span></span><br>
+
+    <span data-text="Each false advertisment upgrade gives you $15 per set interval. False ads that redirect to scammertycoon.ddns.net and gives you money!" class="tooltip">
+    <span id="falseAds"></span>
+    <button style="background-size: cover; padding: 15px 15px; color: black;" type="button" onclick="buyFalseAd();">Buy False Advertisment $<span id="falseAdCost"></span></button>
+    <span id="falseAdProfit"></span></span><br>
+
+    <span data-text="Each overpriced gas station gives you $5 per set interval. The gas is over 100% more expensive than it should be but its the only gas station for 100 miles." class="tooltip">
+    <span id="gasStations"></span>
+    <button style="background-size: cover; padding: 15px 15px; color: black;" type="button" onclick="buyGasStation();">Buy Overpriced Gas Station $<span id="gasStationCost"></span></button>
+    <span id="gasStationProfit"></span></span><br>
 
 </factories>
 
