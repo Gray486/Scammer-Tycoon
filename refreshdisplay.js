@@ -12,6 +12,14 @@ function refreshDisplay() {
 
     document.getElementById("manualScamProfit").innerHTML = manualScamProfit
     
+    document.getElementById("falseAds").innerHTML = falseAds
+
+    document.getElementById("falseAdCost").innerHTML = falseAdCost
+
+    document.getElementById("falseAdProfit").innerHTML = falseAdProfit
+
+    //document.getElementById("falseAdPerSecond").innerHTML = falseAdInterval/1000
+
     document.getElementById("gasStations").innerHTML = gasStations
 
     document.getElementById("gasStationCost").innerHTML = gasStationCost
