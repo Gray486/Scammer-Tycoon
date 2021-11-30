@@ -1,4 +1,5 @@
 var version = "0.1.0"
+var autoSave = "Off"
 var balance = 0;
 var manualScams = 1;
 var manualScamCost = 60;
@@ -53,7 +54,6 @@ function store() {
     balance += storeProfit
     setTimeout(store, storeInterval)
 }
-
 
 //repeating functions
 gasStation();
