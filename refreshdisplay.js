@@ -30,8 +30,21 @@ function refreshDisplay() {
 
     //document.getElementById("gasStationPerSecond").innerHTML = gasStationInterval/1000
 
+    document.getElementById("clickbaits").innerHTML = clickbaits
+
+    document.getElementById("clickbaitCost").innerHTML = clickbaitCost
+
+    document.getElementById("clickbaitProfit").innerHTML = clickbaitProfit
+
+    //document.getElementById("clickbaitPerSecond").innerHTML = clickbaitInterval/1000
+
+    document.getElementById("stores").innerHTML = stores
+
+    document.getElementById("storeCost").innerHTML = storeCost
+
+    document.getElementById("storeProfit").innerHTML = storeProfit
+
+    //document.getElementById("storePerSecond).innerHTML = storeInterval/1000
+
     setTimeout(refreshDisplay, 10);
 }
-
-//template to copy and paste
-//    document.getElementById("").innerHTML = 

@@ -21,20 +21,30 @@
 <!--factories-->
 <factories> <br>
 
-    <span data-text="Each manual scam upgrade gives you $1 per click. Surprisingly people are falling for the ol fake GoFundMe page." class="tooltip">
+    <span data-text="Each manual scam upgrade gives you $1 per click. You can only buy 20 of these. Surprisingly people are falling for the ol mass texting a fake GoFundMe page." class="tooltip">
     <span id="manualScams"></span>
     <button style="background-size: cover; padding: 15px 15px; color: black;" type="button" onclick="buyManualScam();">Upgrade Manual Scam $<span id="manualScamCost"></span></button>
     <span id="manualScamProfit"></span></span><br>
 
-    <span data-text="Each false advertisment upgrade gives you $15 per set interval. False ads that redirect to scammertycoon.ddns.net and gives you money!" class="tooltip">
+    <span data-text="Each false advertisment upgrade gives you $5 per set interval. False ads that redirect to scammertycoon.ddns.net and gives you money!" class="tooltip">
     <span id="falseAds"></span>
     <button style="background-size: cover; padding: 15px 15px; color: black;" type="button" onclick="buyFalseAd();">Buy False Advertisment $<span id="falseAdCost"></span></button>
     <span id="falseAdProfit"></span></span><br>
 
-    <span data-text="Each overpriced gas station gives you $5 per set interval. The gas is over 100% more expensive than it should be but its the only gas station for 100 miles." class="tooltip">
-    <span id="gasStations"></span>
+    <span data-text="Each Gas Station gives you $15 per set interval. The gas is over 200% more expensive than it should be but its the only gas station for 100 miles." class="tooltip">
+    <span id="gasStations"></span> 
     <button style="background-size: cover; padding: 15px 15px; color: black;" type="button" onclick="buyGasStation();">Buy Overpriced Gas Station $<span id="gasStationCost"></span></button>
     <span id="gasStationProfit"></span></span><br>
+
+    <span data-text="Each clickbait gives you $35 per set interval. Overnight challenge 48 hour 2 day in attic scary dudes come to kill bad scary house gets raided! ahhh!" class="tooltip">
+    <span id="clickbaits"></span>
+    <button style="background-size: cover; padding: 15px 15px; color: black;" type="button" onclick="buyClickbait();">Buy Clickbait $<span id="clickbaitCost"></span></button>
+    <span id="clickbaitProfit"></span></span><br>
+
+    <span data-text="Each Grocery Store gives you $50 per set interval. Our food is organic, protein filled, sugar free, diet friendly, gluton free, vegan, vegitarian, and carnivore friendly. (These may or may not apply)" class="tooltip">
+    <span id="stores"></span>
+    <button style="background-size: cover; padding: 15px 15px; color: black;" type="button" onclick="buyStore();">Buy Grocery Store $<span id="storeCost"></span></button>
+    <span id="storeProfit"></span></span><br>
 
 </factories>
 
@@ -49,3 +59,7 @@
 <script src="main.js"></script>
 <script src="upgrade-factories.js"></script>
 <script src="refreshdisplay.js"></script>
+
+<!--links the .css files to this file-->
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<link rel="stylesheet" type="text/css" href="tooltips.css"/>

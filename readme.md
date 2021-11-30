@@ -1,4 +1,4 @@
-Scammer Tycoon: A game about scamming people for personal gain.
+Scammer Tycoon: A game about scamming people for personal gain. I don't want to admit how long this took to make
 
 Game creator and main coder: Gray Jackson-Noell
 

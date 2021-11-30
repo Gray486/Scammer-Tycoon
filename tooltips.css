@@ -1,4 +1,5 @@
-/*this is code I stole that makes tooltips */
+/*this is code I stole from woody who stole it from somebody that makes tooltips */
+
 .tooltip {
     position:relative; /* making the .tooltip span a container for the tooltip text */
     border-bottom:1px dashed #000; /* little indicater to indicate it's hoverable */

@@ -24,3 +24,21 @@ function buyGasStation() {
         gasStationProfit += gasStationIncrease
         gasStationCost = parseInt(gasStationCost)
     }}
+
+function buyClickbait() {
+    if (balance >= clickbaitCost) {
+        balance = balance - clickbaitCost
+        clickbaits += 1    
+        clickbaitCost += clickbaitCost / 10
+        clickbaitProfit += clickbaitIncrease
+        clickbaitCost = parseInt(clickbaitCost)
+    }}
+
+function buyStore() {
+    if (balance >= storeCost) {
+        balance = balance - storeCost
+        stores += 1    
+        storeCost += storeCost / 10
+        storeProfit += storeIncrease
+        storeCost = parseInt(storeCost)
+    }}
