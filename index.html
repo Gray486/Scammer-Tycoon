@@ -48,17 +48,25 @@
 
 </factories>
 
+<!--save button-->
+
+
 <!--links and version number-->
 <links>
     <span id="version"></span><br>
     <a href="https://app.bluecatforms.com/XcDxQzvH/s" target="_blank">Complaint/Sugestion/Bug Form</a><br>
     <a>Refresh your screen to recive any updates.</a>
-</links>
+</links> 
+
+<!--save stuff-->
+<span class="save"><button onclick="save();">Save</button></span>
+<span class="autoSaveToggle"><button id="autoSaveToggle" onclick="autoSaveToggle();">Toggle Auto Save</button></span>
 
 <!--links the .js files to this file-->
 <script src="main.js"></script>
 <script src="upgrade-factories.js"></script>
 <script src="refreshdisplay.js"></script>
+<script src="saveload.js"></script>
 
 <!--links the .css files to this file-->
 <link rel="stylesheet" type="text/css" href="style.css"/>
